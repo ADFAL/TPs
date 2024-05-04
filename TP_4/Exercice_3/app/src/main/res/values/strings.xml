@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">m205-ch04-tp04.03</string>
+    <string name="showcolors">show colors</string>
+    <string name="reset">reset</string>
+    <string name="red">red</string>
+    <string name="green">green</string>
+    <string name="blue">blue</string>
+    <string name="hidecolors">hide colors</string>
+</resources>

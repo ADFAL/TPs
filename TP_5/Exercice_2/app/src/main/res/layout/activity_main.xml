@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF59D"
+    tools:context=".MainActivity">
+
+    <!--  Groupe 1  -->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#90CAF9"
+        android:text="Kagure"
+        android:textSize="20sp"
+        android:padding="5dp"
+
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toStartOf="@id/textView2"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="#90CAF9"
+        android:padding="5dp"
+        android:text="Ben"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#90CAF9"
+        android:text="Kunal"
+        android:textSize="20sp"
+        android:padding="5dp"
+
+        android:layout_toEndOf="@id/textView2"
+        android:layout_marginTop="10dp"/>
+
+    <!--  Groupe 2  -->
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="#90CAF9"
+        android:text="Jennie"
+        android:textSize="20sp"
+        android:padding="5dp"
+
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#90CAF9"
+        android:text="Omoju"
+        android:textSize="20sp"
+        android:padding="5dp"
+
+        android:layout_marginTop="10dp"
+        android:layout_above="@id/t1"
+        android:layout_alignEnd="@id/t1"/>
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#90CAF9"
+        android:text="Amy"
+        android:textSize="20sp"
+        android:padding="5dp"
+
+        android:layout_above="@id/t2"
+        android:layout_alignEnd="@id/t2"/>
+
+    <!--  Groupe 3  -->
+
+    <TextView
+        android:id="@+id/v1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#90CAF9"
+        android:text="Layla"
+        android:textSize="20sp"
+        android:padding="5dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"/>
+
+    <TextView
+        android:id="@+id/v2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#90CAF9"
+        android:text="Natalie"
+        android:textSize="20sp"
+        android:padding="5dp"
+
+        android:layout_above="@id/v1"
+        android:layout_alignStart="@id/v1"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/v3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#90CAF9"
+        android:text="Katherine"
+        android:textSize="20sp"
+        android:padding="5dp"
+
+        android:layout_toEndOf="@id/v1"
+        android:layout_below="@id/v2"
+        android:layout_marginTop="5dp"/>
+
+</RelativeLayout>

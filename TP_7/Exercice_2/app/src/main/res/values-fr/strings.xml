@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="titre">Calcul du salaire</string>
+    <string name="btn">calculer</string>
+    <string name="textview1">Nombre d\'heures</string>
+    <string name="textview2">Enfant</string>
+    <string name="rd1">Permanent</string>
+    <string name="rd2">Vacataire</string>
+    <string name="ch">Marié(e)</string>
+    <string name="t1">Enfants</string>
+    <string name="msg">"Problème "</string>
+</resources>
